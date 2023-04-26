@@ -5,7 +5,7 @@
     - cmd (structuring our application entry point)
     - data (structuring our application data)
 
- ## create a .env file and load tokenes
+ ## create a .env file and load this variable 
 
    | ` TWILIO_ACCOUNT_SID = "your Twilio account sid" `
 
