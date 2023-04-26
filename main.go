@@ -1,7 +1,18 @@
 package main
 
-import "fmt"
+import (
+	"github.com/abhinandpn/twilloOTP/api"
+	"github.com/gin-gonic/gin"
+)
 
 func main() {
-	fmt.Println("helo")
+	router := gin.Default()
+
+	//initialize config
+	app := api.Config{Router: router}
+
+	//routes
+	app.Routes()
+
+	router.Run(":8080")
 }
