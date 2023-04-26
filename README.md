@@ -8,5 +8,7 @@
  > create a .env file and load tokenes
 
    | ` TWILIO_ACCOUNT_SID = "your Twilio account sid" `
+
    | ` TWILIO_AUTHTOKEN = your twilio account authtoken `
+   
    | ` TWILIO_SERVICES_ID = youw twilio account service id `
