@@ -1,4 +1,5 @@
-# One-Time-Password(OTP) Verification API with Go and Twilio
+# One-Time-Password(OTP) Verification API with Go and Twilio 
+# Simple API 
 
 1. Structure 
     - api (structuring our API-related files)
