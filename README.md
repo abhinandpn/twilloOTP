@@ -13,3 +13,19 @@
    | ` TWILIO_AUTHTOKEN = your twilio account authtoken `
 
    | ` TWILIO_SERVICES_ID = youw twilio account service id `
+
+
+   # Request info
+   - OTP sending  http://"localhost":8080/otp
+      > {
+          "PhoneNumber":"enter your number with country code"
+        }
+   - Verify OTP   http://"localhost":8080/verifyOTP
+      > {
+          "user":{
+              "PhoneNumber":"enter your number with country code"
+          },
+            "code":"enter your OTP"
+          }  
+
+  NB : You can change the localhost in to your host
