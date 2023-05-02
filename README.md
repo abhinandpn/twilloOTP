@@ -19,11 +19,11 @@ Otp verification with twillio using gin frame workd in golang
 
 # Request Info
 > Otp sending
-    - {
+     {
           "PhoneNumber":"enter your number with country code"
       }
 > Otp verifying
-    - {
+     {
           "user":{
               "PhoneNumber":"enter your number with country code"
           },
