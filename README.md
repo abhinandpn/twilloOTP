@@ -16,11 +16,11 @@
 
 
    # Request info
-   - OTP sending  http://"localhost":8080/otp
+   - OTP sending  | http://"localhost":8080/otp
       > {
           "PhoneNumber":"enter your number with country code"
         }
-   - Verify OTP   http://"localhost":8080/verifyOTP
+   - Verify OTP   | http://"localhost":8080/verifyOTP
       > {
           "user":{
               "PhoneNumber":"enter your number with country code"
